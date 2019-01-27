@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/connectText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disconnect" />
+
+    <EditText
+        android:id="@+id/ipAddress"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="192.168.43.200" />
+
+    <Button
+        android:id="@+id/bConnect"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ipAddress"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="0dp"
+        android:onClick="onClickControl"
+        android:text="Connect" />
+
+    <Button
+        android:id="@+id/bDisconnect"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ipAddress"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="0dp"
+        android:onClick="onClickControl"
+        android:text="Disconnect" />
+
+    <TextView
+        android:id="@+id/voiceRecognitionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="117dp"
+        android:text="voice recognition" />
+
+    <Button
+        android:id="@+id/bVoiceRecognition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="142dp"
+        android:onClick="onClickControl"
+        android:text="Voice Recognition" />
+
+    <TextView
+        android:id="@+id/stopText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bVoiceRecognition"
+        android:layout_alignParentStart="true"
+        android:text="stop" />
+
+    <Button
+        android:id="@+id/bUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stopText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-10dp"
+        android:onClick="onClickControl"
+        android:text="Up" />
+
+    <Button
+        android:id="@+id/bLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bUp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="2dp"
+        android:onClick="onClickControl"
+        android:text="Left" />
+
+    <Button
+        android:id="@+id/bStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bUp"
+        android:layout_alignStart="@+id/bUp"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="2dp"
+        android:onClick="onClickControl"
+        android:text="Stop" />
+
+    <Button
+        android:id="@+id/bRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bLeft"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="0dp"
+        android:onClick="onClickControl"
+        android:text="Right" />
+
+    <Button
+        android:id="@+id/bDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bUp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginBottom="165dp"
+        android:onClick="onClickControl"
+        android:text="Down" />
+
+    <TextView
+        android:id="@+id/joyAxisText"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="128dp"
+        android:text="X : 0      Y : 0 " />
+
+    <view
+        android:id="@+id/joyStickMove"
+        class="com.MobileAnarchy.Android.Widgets.Joystick.JoystickView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignStart="@+id/bStop"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-18dp"
+        android:layout_marginBottom="0dp" />
+
+</RelativeLayout>
