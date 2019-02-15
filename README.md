@@ -2,7 +2,7 @@
 
 저희 팀은 사각형 범위를 설정해 그 범위 안에 있는 사람만을 인식하는 코드를 추가했습니다.
 
-실행 URL : https://youtu.be/eQWPj4fFUR4
+영상 URL : https://youtu.be/eQWPj4fFUR4
 
 해커톤 영상 : 
 
