@@ -16,3 +16,5 @@
 모두의연구소 AI플레이톤 해커톤 진행영상 : https://www.youtube.com/watch?v=ZR2q_tMMKCk&t=693s
   </li>
 </ul>
+
+This is Hackathon file made by Sanggun Kim & Gwangho Kim.
