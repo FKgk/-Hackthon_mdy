@@ -20,11 +20,9 @@ Jetson Tx2와 Yolo를 이용한 임베디드 AI 로봇이 제공되었고, 저�
   </li>
 </ul>
 
-<ul>
-	<li>작업 기간 : 2018-12-13 ~ 2018-12-14 (2일)</li>
-	<li>작업 인원 : 2 명</li>
-	<li>작업 도구 : C, yolo, Jetson Tx2</li>
-	<li></li>
-</ul>
+
+작업 기간 : 2018-12-13 ~ 2018-12-14 (2일)<br>
+작업 인원 : 2 명<br>
+작업 도구 : C, yolo, Jetson Tx2<br>
 
 This is Hackathon file made by Sanggun Kim & Gwangho Kim.
